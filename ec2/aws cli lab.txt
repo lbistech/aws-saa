@@ -1,0 +1,10 @@
+- aws s3 ls
+- aws s3 mb s3://yourbucketname
+- touch file1 file2 file3
+- aws s3 cp file1 s3://yourbucketname
+- aws s3 sync . s3://yourbucketname
+- aws s3 ls s3://yourbucketname
+- aws s3 rm s3://yourbucketname/file2
+- aws s3 rb s3://yourbucketname
+if you have an error try with force
+- aws s3 rb --force s3://yourbucketname
